@@ -5,4 +5,4 @@ tip:因为还不会写.md的各种样式 所以都用朴实的文字啦。
 
 作者B站@捂脸祖 qq号1055917385
 MC基岩版天火服务器特色在线扫墓网页
-网站地址:https://horrion/saomu/
+网站地址:https://horrion.top/saomu/
