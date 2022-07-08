@@ -118,25 +118,23 @@ a:hover {
     }
 }
 
-/* 各区块 */
-
 .Box1 {
     background: url(../image/bg1.png) no-repeat center center;
 }
 
 .Box2 {
     background: url(../image/bg2.png) no-repeat center center;
-    margin-top: -400px;
+    margin-top: -300px;
 }
 
 .Box3 {
     background: url(../image/bg3.png) no-repeat center center;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .Box4 {
     background: url(../image/bg4.png) no-repeat center center;
-    margin-top: -10px;
+    margin-top: -1px;
 }
 
 .Box5 {
@@ -145,7 +143,7 @@ a:hover {
 
 .saomuBox {
     width: 100%;
-    height: 730px;
+    height: 770px;
 }
 
 /* 首页标题 */
@@ -188,7 +186,7 @@ a:hover {
 
 .Box1-title-Buttom {
     display: inline-block;
-    width: 100px;
+    width: 90px;
     height: 40px;
     border: 1px solid black;
     color: black;
@@ -227,7 +225,7 @@ a:hover {
     padding: 60px 0 30px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-    transition: all 0.3s;
+    transition: all 0.s;
     text-align: center;
 }
 
@@ -253,26 +251,6 @@ a:hover {
 
 .Box2-saomu ul li:hover img {
     transform: scale(1.1);
-}
-
-.Box2-More {
-    display: block;
-    width: 200px;
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 30px;
-    color: black;
-    text-align: center;
-    line-height: 60px;
-    margin: 30px auto 0;
-    opacity: 0;
-    animation: OutBottom 1s ease 0.5s 1 forwards;
-}
-
-.Box2-More:hover {
-    color: black;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-    background-color: white;
 }
 
 /* 一些话 */
@@ -326,29 +304,6 @@ a:hover {
     background-color: white;
 }
 
-.Box3-More {
-    display: block;
-    width: 200px;
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 30px;
-    color: black;
-    text-align: center;
-    line-height: 60px;
-    position: relative;
-    top: 310px;
-    left: 50%;
-    margin-left: -100px;
-    opacity: 0;
-    animation: OutBottom 1s ease 0.5s 1 forwards;
-}
-
-.Box3-More:hover {
-    color: black;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-    background-color: white;
-}
-
 /* 生死簿名单 */
 .Box4-Title {
     display: block;
@@ -389,29 +344,6 @@ a:hover {
     transform: scale(1.02);
 }
 
-.Box4-More {
-    display: block;
-    width: 200px;
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 30px;
-    color: black;
-    text-align: center;
-    line-height: 60px;
-    position: relative;
-    top: 260px;
-    left: 50%;
-    margin-left: -100px;
-    opacity: 0;
-    animation: OutBottom 1s ease 0.5s 1 forwards;
-}
-
-.Box4-More:hover {
-    color: black;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-    background-color: white;
-}
-
 /* 加入我们 */
 .Box5-Join {
     width: 600px;
@@ -421,7 +353,7 @@ a:hover {
     position: relative;
     top: 300px;
     left: 50%;
-    margin-left: -300px;
+    margin-left: -400px;
     padding: 50px 0;
 }
 
@@ -452,15 +384,14 @@ a:hover {
 .footer {
     position: relative;
     top: 100%;
-    margin-top: -390px;
+    margin-top: -350px;
     width: 100%;
-    height: 105px;
+    height: 165px;
     background: url(../image/demo_background.png) no-repeat;
     background-size: 100% 100%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
-
 @media screen and (max-width: 1070px) {
     .Box1-title {
         width: 400px;
@@ -481,10 +412,6 @@ a:hover {
 
     .Box2-saomu ul li img {
         width: 40px;
-    }
-
-    .Box2-More {
-        width: 150px;
     }
 
     .Box3-talk {
@@ -514,12 +441,6 @@ a:hover {
         font-size: 1rem;
     }
 
-    .Box3-More {
-        width: 150px;
-        top: 240px;
-        margin-left: -75px;
-    }
-
     .Box4-Title {
         top: 230px;
     }
@@ -532,12 +453,6 @@ a:hover {
 
     .Box4 ul li img {
         width: 190px;
-    }
-
-    .Box4-More {
-        top: 170px;
-        width: 150px;
-        margin-left: -75px;
     }
 
     .Box5-Join {
@@ -581,11 +496,6 @@ a:hover {
         width: 30px;
     }
 
-    .Box2-More {
-        width: 100px;
-        margin: 0 auto;
-    }
-
     .Box3-talk {
         width: 300px;
         top: 220px;
@@ -617,12 +527,6 @@ a:hover {
         font-size: 1rem;
     }
 
-    .Box3-More {
-        width: 100px;
-        top: 240px;
-        margin-left: -50px;
-    }
-
     .Box4-Title {
         top: 200px;
         font-size: 1.5rem;
@@ -639,12 +543,6 @@ a:hover {
         width: 130px;
         border: 2px solid white;
         margin: 5px;
-    }
-
-    .Box4-More {
-        top: 240px;
-        width: 150px;
-        margin-left: -75px;
     }
 
     .Box5-Join {
